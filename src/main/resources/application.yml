@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: "Spring Security"
+  data:
+    mongodb:
+      password:
+      uri: mongodb://localhost:27017/admin
+      username:
+
+
+server:
+  port: 8080
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQL95Dialect
+#        show_sql: false
+#        use_sql_comments: true
+#        format_sql: true
+#        type:
+#          descriptor:
+#            sql: trace
